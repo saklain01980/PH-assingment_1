@@ -278,3 +278,63 @@ body {
 .early-access-section .btn:hover {
     background-color: #16a34a;
 }
+
+.footer {
+    padding: 40px 20px 25px;
+    background-color: #111827;
+    color: white;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.footer-logo img {
+    height: 40px;
+}
+
+.social-links {
+    text-align: right;
+}
+
+.social-links span {
+    display: block;
+    font-size: 12px;
+    margin-bottom: 10px;
+    opacity: 0.7;
+}
+
+.social-icons {
+    display: flex;
+    gap: 15px;
+    justify-content: flex-end;
+}
+
+.social-icons a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: opacity 0.3s ease;
+}
+
+.social-icons a:hover {
+    opacity: 0.7;
+}
+
+.footer-divider {
+    height: 1px;
+    background-color: #374151;
+    margin-bottom: 20px;
+}
+
+.copyright {
+    text-align: center;
+    font-size: 12px;
+    opacity: 0.6;
+}
