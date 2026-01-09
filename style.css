@@ -187,3 +187,15 @@ body {
     color: #6b7280;
     line-height: 1.6;
 }
+.second-brain-section {
+    padding: 80px 20px;
+    background-color: white;
+}
+
+.second-brain-content {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+    max-width: 1100px;
+    margin: 0 auto;
+}
