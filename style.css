@@ -129,10 +129,29 @@ body {
     background-color: #f9fafb;
 }
 
+.notes-section h2 {
+    font-size: 36px;
+    color: #1a2e35;
+    margin-bottom: 12px;
+}
+
+.section-subtitle {
+    color: #6b7280;
+    margin-bottom: 50px;
+    font-size: 15px;
+}
+
 .cards-container {
     display: flex;
     gap: 25px;
     justify-content: center;
+}
+
+.card {
+    background-color: transparent;
+    padding: 30px 25px;
+    border-radius: 12px;
+    width: 240px;
 }
 
 .card-icon {
@@ -143,4 +162,28 @@ body {
     align-items: center;
     justify-content: center;
     margin: 0 auto 20px;
+}
+
+.icon-red {
+    background-color: #EF4444;
+}
+
+.icon-yellow {
+    background-color: #EF4444;
+}
+
+.card-icon img {
+    filter: brightness(0) invert(1);
+}
+
+.card h3 {
+    font-size: 16px;
+    color: #1a2e35;
+    margin-bottom: 12px;
+}
+
+.card p {
+    font-size: 13px;
+    color: #6b7280;
+    line-height: 1.6;
 }
