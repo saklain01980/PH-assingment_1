@@ -251,3 +251,30 @@ body {
     width: 20px;
     height: 20px;
 }
+
+.early-access-section {
+    padding: 80px 20px;
+    text-align: center;
+    background-color: #1a2e35;
+    color: white;
+}
+
+.early-access-section h2 {
+    font-size: 32px;
+    margin-bottom: 15px;
+}
+
+.early-access-section > .container > p {
+    opacity: 0.8;
+    margin-bottom: 25px;
+    font-size: 15px;
+}
+
+.access-note {
+    font-size: 12px;
+    margin-top: 18px;
+    opacity: 0.7;
+}
+.early-access-section .btn:hover {
+    background-color: #16a34a;
+}
