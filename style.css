@@ -59,3 +59,12 @@ body {
     background-color: #22c55e;
     color: white;
 }
+
+.banner {
+    background-image: url('assets/hero-bg.png');
+    background-size: cover;
+    background-position: center;
+    padding: 100px 20px;
+    text-align: center;
+    color: white;
+}
