@@ -68,3 +68,30 @@ body {
     text-align: center;
     color: white;
 }
+
+.banner-content {
+    max-width: 750px;
+    margin: 0 auto;
+}
+
+.badge {
+    background-color: #1a2e35;
+    border: 1px solid #22c55e;
+    color: #22c55e;
+    padding: 8px 18px;
+    border-radius: 25px;
+    font-size: 12px;
+    display: inline-block;
+    margin-bottom: 25px;
+}
+
+.banner h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+    line-height: 1.2;
+}
+
+.banner h1 em {
+    font-style: italic;
+    color: #bef264;
+}
